@@ -35,7 +35,8 @@
     "analyze": "size-limit --why"
   },
   "peerDependencies": {
-    "rollup": ">=2.0.0"
+    "rollup": ">=2.0.0",
+    "terser": ">=5.0.0"
   },
   "bugs": {
     "url": "https://github.com/DuCanhGH/rollup-plugin-terser/issues"
