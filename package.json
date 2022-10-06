@@ -1,7 +1,10 @@
 {
   "name": "@ducanh2912/rollup-plugin-terser",
-  "version": "1.0.0",
+  "version": "0.9.9",
   "description": "Rollup plugin to minify generated bundle with Terser",
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "rollup",
     "terser"
