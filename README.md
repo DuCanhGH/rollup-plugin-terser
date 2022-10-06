@@ -1,16 +1,15 @@
-# rollup-plugin-terser [![Travis Build Status][travis-img]][travis]
+# Terser plugin for Rollup
 
-[travis-img]: https://travis-ci.org/TrySound/rollup-plugin-terser.svg
-[travis]: https://travis-ci.org/TrySound/rollup-plugin-terser
-
-[Rollup](https://github.com/rollup/rollup) plugin to minify generated es bundle. Uses [terser](https://github.com/fabiosantoscode/terser) under the hood.
+[Rollup](https://github.com/rollup/rollup) plugin to minify generated bundle with Terser. Uses [terser](https://github.com/fabiosantoscode/terser) under the hood.
 
 ## Install
 
 ```sh
-yarn add rollup-plugin-terser --dev
+yarn add @ducanh2912/rollup-plugin-terser --dev
 # Or with npm:
-npm i rollup-plugin-terser --save-dev
+npm i @ducanh2912/rollup-plugin-terser --save-dev
+# Or with pnpm:
+pnpm i @ducanh2912/rollup-plugin-terser --save-dev
 ```
 
 _Note: this package requires rollup@0.66 and higher (including rollup@2.0.0)_
@@ -19,19 +18,13 @@ _Note: this package requires rollup@0.66 and higher (including rollup@2.0.0)_
 
 ```js
 import { rollup } from "rollup";
-import { terser } from "rollup-plugin-terser";
+import { terser } from "@ducanh2912/rollup-plugin-terser";
 
 rollup({
   input: "main.js",
   plugins: [terser()],
 });
 ```
-
-## Why named export?
-
-1. Module is a namespace. Default export often leads to function/component per file dogma and makes code less maintainable.
-2. Interop with commonjs is broken in many cases or hard to maintain.
-3. Show me any good language with default exports. It's historical javascriptism.
 
 ## Options
 
@@ -48,17 +41,13 @@ Note: some terser options are set by the plugin automatically:
 - `module: true` is set when `format` is `esm` or `es`
 - `toplevel: true` is set when `format` is `cjs`
 
-`options.numWorkers: number`
-
-Amount of workers to spawn. Defaults to the number of CPUs minus 1.
-
 ## Examples
 
 ### Using as output plugin
 
 ```js
 // rollup.config.js
-import { terser } from "rollup-plugin-terser";
+import { terser } from "@ducanh2912/rollup-plugin-terser";
 
 export default {
   input: "index.js",
@@ -72,7 +61,7 @@ export default {
 
 ### Comments
 
-If you'd like to preserve comments (for licensing for example), then you can specify a function to do this like so:
+If you'd like to preserve comments (for licensing for example), then you can specify a function to do it like so:
 
 ```js
 terser({
@@ -99,8 +88,4 @@ terser({
 });
 ```
 
-See [Terser documentation](https://github.com/fabiosantoscode/terser#terser) for further reference.
-
-# License
-
-MIT © [Bogdan Chadkin](mailto:trysound@yandex.ru)
+See [Terser's documentation](https://github.com/terser/terser#readme) for further reference.
