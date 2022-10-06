@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/DuCanhGH/rollup-plugin-terser/compare/v1.1.0...v1.1.1) (2022-10-06)
+
+
+### Bug Fixes
+
+* changed peerDeps' rollup to >=2.0.0 ([47db8ef](https://github.com/DuCanhGH/rollup-plugin-terser/commit/47db8ef16326f75d5adc600c5c6c997acc7dc96f))
+
 # [1.1.0](https://github.com/DuCanhGH/rollup-plugin-terser/compare/v1.0.0...v1.1.0) (2022-10-06)
 
 
