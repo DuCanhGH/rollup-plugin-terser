@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/DuCanhGH/rollup-plugin-terser/compare/v1.1.2...v1.2.0) (2022-10-06)
+
+
+### Bug Fixes
+
+* added terser to peerDeps list ([e9ebb9e](https://github.com/DuCanhGH/rollup-plugin-terser/commit/e9ebb9eabc64e56e356ed3d1974bc40cd019ebf1))
+
+
+### Features
+
+* **force publish:** added Prettier ([3c89a8c](https://github.com/DuCanhGH/rollup-plugin-terser/commit/3c89a8c5bb250c5b8d86cbee22eea3a60a71737b))
+
 ## [1.1.2](https://github.com/DuCanhGH/rollup-plugin-terser/compare/v1.1.1...v1.1.2) (2022-10-06)
 
 
