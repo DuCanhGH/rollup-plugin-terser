@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/DuCanhGH/rollup-plugin-terser/compare/v1.0.0...v1.1.0) (2022-10-06)
+
+
+### Features
+
+* force publish ([33eab26](https://github.com/DuCanhGH/rollup-plugin-terser/commit/33eab26c140937ec9c96fef54b8ec6e642e53e05))
+
 # 1.0.0 (2022-10-06)
 
 
