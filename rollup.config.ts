@@ -18,7 +18,7 @@ export default defineConfig({
       noForceEmit: true,
       noEmitOnError: true,
       declaration: true,
-      declarationDir: "dist"
+      declarationDir: "dist",
     }),
   ],
   external: ["rollup", "terser", "@babel/code-frame"],
