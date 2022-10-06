@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/DuCanhGH/rollup-plugin-terser/compare/v1.1.1...v1.1.2) (2022-10-06)
+
+
+### Bug Fixes
+
+* require should now resolve to correct file ([c8bf7e4](https://github.com/DuCanhGH/rollup-plugin-terser/commit/c8bf7e43926e98c44911cad220feb7fe5c5d2f0f))
+
 ## [1.1.1](https://github.com/DuCanhGH/rollup-plugin-terser/compare/v1.1.0...v1.1.1) (2022-10-06)
 
 
