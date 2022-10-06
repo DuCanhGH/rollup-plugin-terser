@@ -12,7 +12,7 @@ npm i @ducanh2912/rollup-plugin-terser --save-dev
 pnpm i @ducanh2912/rollup-plugin-terser --save-dev
 ```
 
-_Note: this package requires rollup@0.66 and higher (including rollup@2.0.0)_
+_Note: this package requires rollup@2.0.0 and higher_
 
 ## Usage
 
