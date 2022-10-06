@@ -5,7 +5,7 @@ export default defineConfig({
   input: "src/index.ts",
   output: [
     {
-      file: "dist/ducanh2912-rollup-plugin-terser.module.js",
+      file: "dist/ducanh2912-rollup-plugin-terser.module.mjs",
       format: "es",
     },
     {

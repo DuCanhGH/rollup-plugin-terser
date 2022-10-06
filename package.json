@@ -15,12 +15,12 @@
   "license": "MIT",
   "type": "module",
   "main": "./dist/ducanh2912-rollup-plugin-terser.cjs",
-  "module": "./dist/ducanh2912-rollup-plugin-terser.module.js",
+  "module": "./dist/ducanh2912-rollup-plugin-terser.module.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     "types": "./dist/index.d.ts",
-    "require": "./dist/ducanh2912-rollup-plugin-terser.module.js",
-    "default": "./dist/ducanh2912-rollup-plugin-terser.cjs"
+    "require": "./dist/ducanh2912-rollup-plugin-terser.cjs",
+    "default": "./dist/ducanh2912-rollup-plugin-terser.module.mjs"
   },
   "engines": {
     "node": ">=10"
@@ -51,7 +51,7 @@
       "limit": "256 KB"
     },
     {
-      "path": "dist/ducanh2912-rollup-plugin-terser.module.js",
+      "path": "dist/ducanh2912-rollup-plugin-terser.module.mjs",
       "limit": "256 KB"
     }
   ],
