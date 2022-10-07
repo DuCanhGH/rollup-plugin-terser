@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/DuCanhGH/rollup-plugin-terser/compare/v1.2.0...v1.2.1) (2022-10-07)
+
+
+### Bug Fixes
+
+* moved size-limit from example/package.json (idk why it was there) ([c5378c7](https://github.com/DuCanhGH/rollup-plugin-terser/commit/c5378c70c5e43a3e8c5e0543a90e91045af4aa76))
+
 # [1.2.0](https://github.com/DuCanhGH/rollup-plugin-terser/compare/v1.1.2...v1.2.0) (2022-10-06)
 
 
