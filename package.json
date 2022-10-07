@@ -49,11 +49,11 @@
   "size-limit": [
     {
       "path": "dist/ducanh2912-rollup-plugin-terser.cjs",
-      "limit": "256 KB"
+      "limit": "20 KB"
     },
     {
       "path": "dist/ducanh2912-rollup-plugin-terser.module.mjs",
-      "limit": "256 KB"
+      "limit": "20 KB"
     }
   ],
   "devDependencies": {
@@ -66,6 +66,9 @@
     "@semantic-release/github": "8.0.6",
     "@semantic-release/npm": "9.0.1",
     "@semantic-release/release-notes-generator": "10.0.3",
+    "@size-limit/preset-small-lib": "8.1.0",
+    "@size-limit/webpack": "8.1.0",
+    "@size-limit/webpack-why": "8.1.0",
     "@types/babel__code-frame": "7.0.3",
     "@typescript-eslint/eslint-plugin": "5.39.0",
     "@typescript-eslint/parser": "5.39.0",
@@ -78,8 +81,10 @@
     "rimraf": "3.0.2",
     "rollup": "2.79.1",
     "semantic-release": "19.0.5",
+    "size-limit": "8.1.0",
     "terser": "5.15.1",
-    "typescript": "4.8.4"
+    "typescript": "4.8.4",
+    "webpack": "5.74.0"
   },
   "dependencies": {
     "tslib": "2.4.0"

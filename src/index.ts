@@ -5,7 +5,7 @@ import { transform } from "./transform.js";
 
 type Options = Omit<MinifyOptions, "sourceMap">;
 
-export function terser(userOptions: Options = {}): Plugin {
+function terser(userOptions: Options = {}): Plugin {
   // @ts-expect-error mf omitted the value `sourceMap` from the type
   if (userOptions.sourceMap != null) {
     throw Error(
@@ -49,3 +49,6 @@ export function terser(userOptions: Options = {}): Plugin {
     },
   };
 }
+
+export { terser };
+export default terser;
