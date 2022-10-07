@@ -11,6 +11,7 @@ export default defineConfig({
     {
       file: "dist/ducanh2912-rollup-plugin-terser.cjs",
       format: "cjs",
+      exports: "named",
     },
   ],
   plugins: [
