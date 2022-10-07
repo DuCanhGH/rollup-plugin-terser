@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/DuCanhGH/rollup-plugin-terser/compare/v1.2.1...v1.2.2) (2022-10-07)
+
+
+### Bug Fixes
+
+* suppressed Rollup's warning about mixing default and named ([109a750](https://github.com/DuCanhGH/rollup-plugin-terser/commit/109a7508bf47f6c56a7045b870283efb3840764b))
+
 ## [1.2.1](https://github.com/DuCanhGH/rollup-plugin-terser/compare/v1.2.0...v1.2.1) (2022-10-07)
 
 
