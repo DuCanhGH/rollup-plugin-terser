@@ -1,3 +1,11 @@
+## [1.2.3](https://github.com/DuCanhGH/rollup-plugin-terser/compare/v1.2.2...v1.2.3) (2022-11-05)
+
+
+### Bug Fixes
+
+* changed Rollup config's extension from ts to js ([6277699](https://github.com/DuCanhGH/rollup-plugin-terser/commit/62776998a8aa0f0f758b8dcd7a38668c71db22d4))
+* fixed ESLint issue ([d94bdd8](https://github.com/DuCanhGH/rollup-plugin-terser/commit/d94bdd8511e56bf60e1fd62b17c0baf00f53eb83))
+
 ## [1.2.2](https://github.com/DuCanhGH/rollup-plugin-terser/compare/v1.2.1...v1.2.2) (2022-10-07)
 
 
