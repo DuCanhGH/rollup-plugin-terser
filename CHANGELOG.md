@@ -1,22 +1,8 @@
-# [2.0.0](https://github.com/DuCanhGH/rollup-plugin-terser/compare/v1.2.3...v2.0.0) (2022-11-05)
-
-
-### Bug Fixes
-
-* nothing ([7e4c456](https://github.com/DuCanhGH/rollup-plugin-terser/commit/7e4c45674f13d6a031ef4a376e36b4305a5d31c5))
-
+# [2.0.0](https://github.com/DuCanhGH/rollup-plugin-terser/compare/v1.2.2...v2.0.0) (2022-11-05)
 
 ### BREAKING CHANGES
 
-* bump major version (attempt 2)
-
-## [1.2.3](https://github.com/DuCanhGH/rollup-plugin-terser/compare/v1.2.2...v1.2.3) (2022-11-05)
-
-
-### Bug Fixes
-
-* changed Rollup config's extension from ts to js ([6277699](https://github.com/DuCanhGH/rollup-plugin-terser/commit/62776998a8aa0f0f758b8dcd7a38668c71db22d4))
-* fixed ESLint issue ([d94bdd8](https://github.com/DuCanhGH/rollup-plugin-terser/commit/d94bdd8511e56bf60e1fd62b17c0baf00f53eb83))
+* bumped rollup peerDeps to 3.x.x because of config type mismatch between 2 major versions
 
 ## [1.2.2](https://github.com/DuCanhGH/rollup-plugin-terser/compare/v1.2.1...v1.2.2) (2022-10-07)
 
