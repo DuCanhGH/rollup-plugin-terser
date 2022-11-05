@@ -36,7 +36,7 @@
     "analyze": "size-limit --why"
   },
   "peerDependencies": {
-    "rollup": ">=2.0.0",
+    "rollup": ">=3.0.0",
     "terser": ">=5.0.0"
   },
   "bugs": {
@@ -59,8 +59,8 @@
   ],
   "devDependencies": {
     "@babel/code-frame": "7.18.6",
-    "@eslint/eslintrc": "1.3.2",
-    "@rollup/plugin-typescript": "8.5.0",
+    "@eslint/eslintrc": "1.3.3",
+    "@rollup/plugin-typescript": "9.0.2",
     "@semantic-release/changelog": "6.0.1",
     "@semantic-release/commit-analyzer": "9.0.2",
     "@semantic-release/git": "10.0.1",
@@ -71,9 +71,9 @@
     "@size-limit/webpack": "8.1.0",
     "@size-limit/webpack-why": "8.1.0",
     "@types/babel__code-frame": "7.0.3",
-    "@typescript-eslint/eslint-plugin": "5.39.0",
-    "@typescript-eslint/parser": "5.39.0",
-    "eslint": "8.24.0",
+    "@typescript-eslint/eslint-plugin": "5.42.0",
+    "@typescript-eslint/parser": "5.42.0",
+    "eslint": "8.26.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-simple-import-sort": "8.0.0",
     "globals": "13.17.0",
@@ -81,7 +81,7 @@
     "prettier": "2.7.1",
     "prettier-plugin-jsdoc": "0.4.2",
     "rimraf": "3.0.2",
-    "rollup": "2.79.1",
+    "rollup": "3.2.5",
     "semantic-release": "19.0.5",
     "size-limit": "8.1.0",
     "terser": "5.15.1",
@@ -89,6 +89,6 @@
     "webpack": "5.74.0"
   },
   "dependencies": {
-    "tslib": "2.4.0"
+    "tslib": "2.4.1"
   }
 }
