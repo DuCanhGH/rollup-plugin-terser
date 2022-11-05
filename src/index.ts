@@ -1,6 +1,7 @@
+import { codeFrameColumns } from "@babel/code-frame";
 import type { Plugin } from "rollup";
 import type { MinifyOptions } from "terser";
-import { codeFrameColumns } from "@babel/code-frame";
+
 import { transform } from "./transform.js";
 
 type Options = Omit<MinifyOptions, "sourceMap">;

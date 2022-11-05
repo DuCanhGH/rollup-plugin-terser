@@ -1,6 +1,6 @@
-import { minify } from "terser";
-import type { MinifyOptions } from "terser";
 import type { SourceMapInput } from "rollup";
+import type { MinifyOptions } from "terser";
+import { minify } from "terser";
 
 interface TransformReturnType {
   code: string;
