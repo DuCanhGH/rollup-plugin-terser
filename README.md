@@ -1,3 +1,4 @@
+> This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
 # Terser plugin for Rollup
 
 [Rollup](https://github.com/rollup/rollup) plugin to minify generated bundle with Terser. Uses [terser](https://github.com/fabiosantoscode/terser) under the hood.
